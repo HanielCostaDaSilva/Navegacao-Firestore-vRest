@@ -5,7 +5,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 
 object RetrofitClient {
 
-    private const val BASE_URL = "http://192.168.0.106:3000/" // Para emulador Android
+    private const val BASE_URL = "http://10.10.0.1:3000/" // Para emulador Android
 
     val usuarioService: UsuarioServiceIF by lazy {
         Retrofit.Builder()
